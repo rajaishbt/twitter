@@ -15,7 +15,7 @@ var _twitterConsumerSecret = "Neio7iajRS6m5V252yGdWy9qUX9YvC9jjC0H903HJmGOW16LGQ
 
 var consumer = new oauth.OAuth(
     "https://api.twitter.com/oauth/request_token", "https://api.twitter.com/oauth/access_token", 
-    _twitterConsumerKey, _twitterConsumerSecret, "1.0A", "http://localhost:3000/login", "HMAC-SHA1");;
+    _twitterConsumerKey, _twitterConsumerSecret, "1.0A", "https://twitter-tryout.herokuapp.com/login", "HMAC-SHA1");;
 
 app.use(session({ secret: "tweets very secret", resave: false, saveUninitialized: true, cookie: {maxAge: (365 * 24 * 60 * 60 * 1000), path: "/" }}));
 
