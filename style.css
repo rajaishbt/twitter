@@ -1,0 +1,167 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #e6ecf0;
+}
+
+header ul {
+	list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+}
+header ul li{
+	display: inline-block;
+    padding: 0 0 0 20px;
+}
+header ul li a {
+    text-decoration: none;
+    color: #949494;
+}
+#root {
+	margin: 20px auto;
+	width: 380px;
+	border: 1px solid #e6ecf0;
+}
+.card {
+	margin: 10px 0;
+	background: #fff;  
+}
+.login {
+	min-height: 300px;
+	text-align: center;
+}
+.login h1 {
+	padding: 100px 0px 50px;
+    text-align: center;
+}
+.login button, button {
+	color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 200px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.profileCard {
+	overflow: hidden;
+}
+.profileBg {
+	background: #000;
+	height: 100px;
+}
+.avatarBlock {
+    margin: -35px 0 0 0;
+    padding: 10px;
+	width: 72px;
+	float: left;
+}
+.avatarImage, .followerImage {
+	border-radius: 50%;
+    height: 72px;
+    width: 72px;
+    border: 2px solid #fff;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+}
+.ProfileCardDetail {
+	float: left;
+}
+.profileName {
+	padding: 6px;
+	font-weight: bold;
+	display: block;
+}
+.ProfileCardStats {
+	margin: 10px 0px;
+}
+.ProfileCardStats-statList {
+    margin: 0;
+    padding: 0 10px;
+	list-style: none;
+}
+.ProfileCardStats-stat {
+	margin: 10px 0px;
+	display: inline-block;
+    width: 120px;
+	text-align: center;
+}
+.ProfileCardStats-stat:nth-child(2){
+	width: 118px;
+	border-right: solid 1px #e6ecf0;
+	border-left: solid 1px #e6ecf0;
+}
+.ProfileCardStats-statLink {
+	display: block;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+}
+.ProfileCardStats-statLabel {
+	display: block;
+}
+.tweet {
+	margin: 12px;
+    padding: 15px;
+    border-bottom: solid 1px #e6ecf0;
+}
+.tweetTime {
+	font-size: 12px;
+}
+.content {
+	margin: 10px 0 10px;
+}
+.tweet-actions {
+	margin: 0px;
+    padding: 0px;
+    list-style: none;
+	overflow: hidden;
+}
+.tweet-actions li{
+	float: left;
+    padding: 0 10px 0 0;
+    font-size: 12px;
+}
+.postTweet {
+	margin: 12px;
+    padding: 15px;
+	overflow: hidden;
+}
+.postTweet textarea{
+	width: 100%;
+    height: 70px;
+    border: solid 1px #e6ecf0;
+    border-radius: 5px;
+}
+.postTweet button {
+	margin-bottom: 0px;
+    float: right;
+}
+.followers ul{
+	margin: 0px;
+    padding: 10px 0;
+    list-style: none;
+}
+.followerBlock{
+    padding: 10px;
+    width: 72px;
+    display: inline;
+}
