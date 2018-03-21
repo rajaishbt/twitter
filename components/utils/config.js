@@ -1,4 +1,4 @@
 export const config = {
-	baseUrl: 'http://localhost:3000/',
+	baseUrl: 'https://twitter-tryout.herokuapp.com/',
 	twitterAuthorizeUrl: 'https://api.twitter.com/oauth/authorize?oauth_token='
 };
